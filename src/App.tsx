@@ -14,6 +14,8 @@ function App() {
     // Simulate loading for smooth intro animation
     const timer = setTimeout(() => {
       setLoading(false);
+
+      
     }, 1000);
     
     return () => clearTimeout(timer);
